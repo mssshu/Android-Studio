@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luda.a00717133_assignment2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".assignment2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainMenu"
+            android:label="MAIN MENU" >
+        </activity>
+        <activity
+            android:name=".history"
+            android:label="HISTORY" >
+        </activity>
+        <activity
+            android:name=".payBills"
+            android:label="@string/title_activity_pay_bills" >
+        </activity>
+        <activity
+            android:name=".contactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".historyMenu"
+            android:label="@string/title_activity_history_menu" >
+        </activity>
+        <activity
+            android:name=".receiptPage"
+            android:label="@string/title_activity_receipt_page" >
+        </activity>
+    </application>
+
+</manifest>
